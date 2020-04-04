@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+    margin:0;
+}
+li{
+    border-right:1px solid #cccccc;
+    padding: 10px;
+    display: inline;
+    padding-left: 16px;
+    float: left;
+}
+
+li:last-child{
+    border-right:none;
+}
+
+.outer-container{
+    min-height: 100%;
+}
+
+.container{
+    padding: 20px;
+    padding-bottom: 50px;
+    
+}
+.card{
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+  }
