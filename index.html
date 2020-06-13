@@ -1,56 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/d31c44e089.js" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet"  type="text/css" href="./assets/css/style.css">
-   
-    <title>About Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Developer - Sara Neves Pereira</title>
+
+  <!---------Font Awesome and Google Fonts links-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Dancing+Script:wght@603&family=Lobster&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!----------CSS Link----------->
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/portfolio.css">
+
+  <!------------FONT AWESOME JS------->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+    crossorigin="anonymous"></script>
+
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar">
-        <a class="navbar-brand" href="#">Sara Pereira</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse active justify-content-end" id="navbarNav">
-          <ul class="navbar-nav ">
-            <li class="nav-item ">
-              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- <div class="outer-container"> -->
-        
-      <div class="container d-flex justify-content-center">
-        
-          <img src="assets/images/Profile.jpg" alt="profile pic">
-       
-        <div class="card">
-            <h4 class="card-header">About Me</h4>
-            Hi! My name is Sara Pereira. Currently I live in Phoenix, Arizona which is a huge change <br/>
-            from where I am originally from - The Azores - these are islands in the middle of the Atlantic. <br/>
-            I have two degrees; one is on Cinema Production from Paris, and the other is on Social and Cultural Analysis
-            from ASU. They seem very different, but what they have in common is that both these degrees are about
-            understanding how things work. This is why I have decided to change my career and pursue Web Development. 
-            It's the ultimate puzzle!
-            </div>
-          </div>
+
+<body id="page-top">
+  <!-- Navigation -->
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#page-top">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="row burgerBck">
+    <i class="fas fa-bars fa-2x" onclick="openNav()" id="burger"></i>
+  </div>
+
+
+  <!-------HomePage---------->
+  <header class="masthead ">
+
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+    <div class="container nameTitle">
+      <div id="logo" class="mb-1">Sara Pereira</div>
+      <div class="mb-1"> Full Stack Developer</div>
+
+    </div>
+  </header>
+
+  <!----SKILLS/About----->
+  <section id="about">
+    <div class="container" style="height:100vh">
+      <div class="row">
+        <h1 class="skills">
+          <hr>EXPERIENCE
+          <hr>
+        </h1>
       </div>
-    <!-- </div> -->
-      <footer> <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="#"><i class="fab fa-github fa-2x"></i></a> 
-    </footer>
+      <div class="row mb-md-6 ">
+        <div class="col-sm-4 skillsInfo">
+          <div class="row d-flex justify-content-center icons">
+            <i class="fas fa-code fa-3x skillsIcons"></i>
+          </div>
+          <h3 class="text-center">Front-End Development</h3>
+          <p class="text-justify pt-2">I create websites and applications using the basic <strong>HTML5</strong>,
+            <strong>Javascript</strong> and <strong>CSS</strong>. I also use other js libraries such as jQuery,
+            and front-end templates such as React and Handlebars. To expedite the embelisment
+            of the pages I use Bootstrap and Materialize.
+          </p>
+        </div>
+        <div class="col-sm-4 skillsInfo">
+          <div class="row d-flex justify-content-center icons">
+            <i class="fas fa-server fa-3x skillsIcons "></i>
+          </div>
+          <h3 class="text-center">Back End Development</h3>
+          <p class="text-justify pt-2">Server side of websites and applications, I <strong>Node.js</strong> to execute
+            javascript outside of the web browser
+            and <strong>Express</strong> as my server framework to build the applications and APIs.
+          </p>
+        </div>
+        <div class="col-sm-4 skillsInfo">
+          <div class="row d-flex justify-content-center icons">
+            <i class="fas fa-database fa-3x skillsIcons"></i>
+          </div>
+          <h3 class="text-center"> Server/Client Databases</h3>
+          <p class="text-justify pt-2">To store data from user input, external APIs and I use both relational Database
+            <strong>MySQL</strong> with <strong>Sequelize</strong> as my Object Relational Mapping,
+            and non-relational Database <strong>Mongo DB</strong>, using the Object Data Modeling
+            <strong>Mongoose</strong> .
+          </p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center learnMore">
+        <a href="about.html">
+        <button type="button" class="btn btn-secondary btn-lg">Learn More</button>
+      </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-----Portfolio------>
+  <section id="portfolio">
+    <div class=container style="height:80vh">
+      <div class="row">
+        <h1 class="projects pb-3">
+          <hr>PORTFOLIO
+          <hr>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="single-content">
+            <a href="https://gentle-spire-07039.herokuapp.com/" target="_blank">
+              <img src="/assets/images/FF2.png" alt="FriendFinder" width="100%" height="relative">
+
+              <div class="text-content">
+                <h4>Friend Finder</h4>
+                <h5>A NodeJs and Express App</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="single-content">
+            <a href="https://tranquil-sierra-07610.herokuapp.com/" target="_blank">
+              <img src="/assets/images/bookapp.png" alt="FriendFinder" width="relative" height="180vh">
+
+              <div class="text-content">
+                <h4>Book App</h4>
+                <h5>MySQL, Express app</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="single-content">
+            <a href="https://saranp-33.github.io/GifTastic/" target="_blank">
+              <img src="/assets/images/Giftastic2.png" alt="Giftastic" width="100%" height="relative">
+
+              <div class="text-content">
+                <h4>GifTastic</h4>
+                <h5>Jquery- Ajax API call</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center moreProjects mt-5">
+        <a href="portfolio.html">
+        <button type="button" class="btn btn-secondary btn-lg mt-5">More Projects</button>
+      </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!--------Contact Me-------->
+  <section class="mt-3" id="contact">
+    <div class="container" style="height:70vh" id="email">
+      <div class="row contactMe d-flex justify-content-center">
+        <h2> Ready! Set! Build Amazing Websites and Apps!</h2>
+      </div>
+      <div class="row clickMe d-flex justify-content-center">
+        <a href="contact.html">
+        <button type="button" class="btn btn-secondary btn-lg">Contact Me</button>
+      </a>
+      </div>
+
+    </div>
+  </section>
+
+
 </body>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+  integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+  integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- scripts for this portfolio -->
+<script src="/assets/js/navbar.js"></script>
+
 </html>

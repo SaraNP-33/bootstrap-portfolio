@@ -1,0 +1,22 @@
+.aboutRow{
+    padding-top: 8vh;
+    color:#ffb3b3;
+    
+}
+
+.skillsRow{
+    padding-top:15vh;
+    color:#ffb3b3;
+}
+
+.skills{
+    color:#ffb3b3 !important;  
+}
+
+.allSkills{
+    padding-bottom: 10vh;
+}
+.row h3,
+.storyBrand{
+    color:#8c8c8c;
+}

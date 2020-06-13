@@ -1,16 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet"  type="text/css" href="./assets/css/style.css">
-    <script src="https://kit.fontawesome.com/d31c44e089.js" crossorigin="anonymous"></script>
-    
     <title>Portfolio</title>
+
+    <!---------Font Awesome and Google Fonts links-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Dancing+Script:wght@603&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!----------CSS Link----------->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/portfolio.css">
+
+    <!------------FONT AWESOME JS------->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-    
+    <!-- Navigation -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="row burgerBck">
+        <i class="fas fa-bars fa-2x" onclick="openNav()" id="burger"></i>
+    </div>
+    <!-----Portfolio------>
+    <section id="portfolio">
+        <div class=container>
+            <div class="row">
+                <h1 class="projects pb-3">
+                    <hr>PORTFOLIO
+                    <hr>
+                </h1>
+            </div>
+            <!------First Row------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://gentle-spire-07039.herokuapp.com/" target="_blank">
+                            <img src="/assets/images/FF2.png" alt="FriendFinder" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>Friend Finder</h4>
+                                <h5>A NodeJs and Express App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://tranquil-sierra-07610.herokuapp.com/" target="_blank">
+                            <img src="/assets/images/bookapp.png" alt="FriendFinder" width="relative" height="180vh">
+
+                            <div class="text-content">
+                                <h4>Book App</h4>
+                                <h5>MySQL, Express app</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://saranp-33.github.io/GifTastic/" target="_blank">
+                            <img src="/assets/images/Giftastic2.png" alt="Giftastic" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>GifTastic</h4>
+                                <h5>Jquery- Ajax API call</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!------Second Row------->
+            <div class="row projectRow">
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="single-content ">
+                        <a href="https://github.com/SaraNP-33/LiriBot" target="_blank">
+                            <img src="/assets/images/liribot.png" alt="FriendFinder" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>LiriBot</h4>
+                                <h5>A NodeJs and Inquirer App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://github.com/SaraNP-33/bamazon" target="_blank">
+                            <img src="/assets/images/bamazon.png" alt="FriendFinder" width="relative" height="180vh">
+
+                            <div class="text-content">
+                                <h4>Bamazon</h4>
+                                <h5>A NodeJs, MySQL and Inquirer App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://saranp-33.github.io/TrainSchedule/" target="_blank">
+                            <img src="/assets/images/train.png" alt="Giftastic" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>Train</h4>
+                                <h5>Jquery, Firebase and Moment App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!------Third Row------->
+            <div class="row projectRow3">
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="single-content ">
+                        <a href="https://saranp-33.github.io/unit-4-game/" target="_blank">
+                            <img src="/assets/images/crystal.png" alt="FriendFinder" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>Crystal Collector</h4>
+                                <h5>Javascript App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://tranquil-sierra-07610.herokuapp.com/" target="_blank">
+                            <img src="/assets/images/bookapp.png" alt="FriendFinder" width="relative" height="180vh">
+
+                            <div class="text-content">
+                                <h4>Book App</h4>
+                                <h5>MySQL, Express app</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div> -->
+                <!-- <div class="col-md-4 col-sm-6">
+                    <div class="single-content">
+                        <a href="https://saranp-33.github.io/GifTastic/" target="_blank">
+                            <img src="/assets/images/Giftastic2.png" alt="Giftastic" width="100%" height="relative">
+
+                            <div class="text-content">
+                                <h4>GifTastic</h4>
+                                <h5>Jquery- Ajax API call</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            <!----End OF Container---->
+        </div>
+
+
+    </section>
+
 </body>
+<script src="/assets/js/navbar.js"></script>
+
 </html>
