@@ -40,7 +40,7 @@ body {
 
 .masthead{
     min-height: 20rem;
-    background: url("/assets/images/profile.jpeg");
+    background: url("../images/profile.jpeg");
     position: relative;
     display: table;
     width:100%;
@@ -121,7 +121,7 @@ z-index:500;
   color:#8c8c8c;
 }
 #contact{
-  background-image: url("/assets/images/pink.jpg");
+  background-image: url("../images/pink.jpg");
   background-repeat: no-repeat;
     background-size: cover;
   
