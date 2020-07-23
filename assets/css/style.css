@@ -38,8 +38,9 @@ body {
     margin-left: 50px;
   }
   .navImage{
-    border: 2px solid whitesmoke;
     box-shadow: 5px 5px 5px #8c8c8c;
+    width:170px;
+    height:155px;
     
  
   }
@@ -136,23 +137,27 @@ z-index:500;
   color:#8c8c8c;
 }
 #contact{
+  /* min-height:175px !important; */
+  height:100% !important;
+  padding-top:2vh;
   background-image: url("../images/pinkbckg.jpg");
   background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
   
 }
-.contactMe h2{
+
+/* .contactMe h2{
   color:#8c8c8c;
   margin-top: 20vh;
  
 
-}
+} */
 
-.clickMe button{
+/* .clickMe button{
   margin-top: 15vh;
-  background-color: #004d99;
-}
-
-.clickMe button:hover{
   background-color: #66c2ff;
-}
+} */
+
+/* .clickMe button:hover{
+  background-color: #8c8c8c;
+} */
