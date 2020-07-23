@@ -40,6 +40,7 @@ body {
   .navImage{
     border: 2px solid whitesmoke;
     box-shadow: 5px 5px 5px #8c8c8c;
+    
  
   }
   .footer{
@@ -135,13 +136,13 @@ z-index:500;
   color:#8c8c8c;
 }
 #contact{
-  background-image: url("../images/pink.jpg");
+  background-image: url("../images/pinkbckg.jpg");
   background-repeat: no-repeat;
     background-size: cover;
   
 }
 .contactMe h2{
-  color:white;
+  color:#8c8c8c;
   margin-top: 20vh;
  
 
