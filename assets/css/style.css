@@ -37,6 +37,20 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+  .navImage{
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 5px #8c8c8c;
+ 
+  }
+  .footer{
+    padding-top: 20px;
+    margin-top: 25vh;
+    margin-left: 3vw;
+  }
+  .name,
+  .title{
+    color:#8c8c8c
+  }
 
 .masthead{
     min-height: 20rem;
