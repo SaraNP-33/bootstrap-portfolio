@@ -55,10 +55,9 @@ body {
   }
 
 .masthead{
-    min-height: 20rem;
+    max-height: 110vh;
     background: url("../images/profile.jpeg");
     position: relative;
-    display: table;
     width:100%;
     padding-top: 20rem;
     padding-bottom: 5rem;
@@ -74,6 +73,9 @@ body {
     margin-top:5vh;
     
 }
+.mainTitle{
+  margin-left:8vw;
+}
 .masthead div{
     color: white;
     font-family:"archivo", "sans-serif";
@@ -82,11 +84,11 @@ body {
 }
 .nameTitle{
   margin-bottom: 50vh;
-  margin-left:30vh;
+  margin-left:5vh;
 }
 
 #burger{
-  color:#8c8c8c !important;
+  color:darkslategrey !important;
   
   margin-left:3vw;
   margin-top:7vh ;
