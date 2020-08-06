@@ -139,14 +139,16 @@ z-index:500;
   color:#8c8c8c;
 }
 #contact{
-  /* min-height:175px !important; */
-  height:100% !important;
+  
+  height:15vh !important;
+  
   padding-top:2vh;
   background-image: url("../images/pinkbckg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
 }
+
 
 /* .contactMe h2{
   color:#8c8c8c;
